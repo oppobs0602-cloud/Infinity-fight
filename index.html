@@ -52,7 +52,7 @@ button.go{background:var(--gold);color:#241a05;border-color:var(--gold);text-ali
 <canvas id="cv"></canvas><div id="lbs"></div>
 <div id="hud"><span id="h1"></span><span id="h2"></span></div><div id="msg"></div><div id="fx"></div><button id="rv">มุมมอง: ปกติ</button>
 <div id="pn"><div id="who"></div><div class="r3"><button id="ba">โจมตี</button><button id="bs"></button><button id="bu" style="display:none"></button><button id="bg" style="display:none"></button><button id="bd">ป้องกัน</button></div><p>แตะชื่อศัตรูเพื่อเลือกเป้าหมาย • ป้องกันลดดาเมจครึ่งหนึ่งและได้ MP +2</p></div>
-<div class="ov on" id="md"><h1>ปาร์ตี้นักสู้</h1><p>เลือกโหมดที่จะเล่น</p><div class="row"><button id="m1"><b>♾️ โหมดไร้สิ้นสุด</b><span>สู้เวฟไปเรื่อยๆ เก็บเลเวล ไอเท็ม และเพื่อนร่วมทีม</span></button><button id="m2"><b>⚔️ โหมดแรงค์</b><span>จัดทีมป้องกันจากตัวละครในเซฟ (เลเวลสูงสุด 99) แล้วท้าโจมตีทีมของผู้เล่นอื่นด้วยตัวละครจากเซฟของคุณ</span></button></div></div>
+<div class="ov on" id="md"><h1>ปาร์ตี้นักสู้</h1><p>เลือกโหมดที่จะเล่น</p><div class="row cd" id="acb" style="justify-content:space-between;font-size:13px"><span id="acn"></span><button id="aco" style="flex:none"></button></div><div class="row"><button id="m1"><b>♾️ โหมดไร้สิ้นสุด</b><span>สู้เวฟไปเรื่อยๆ เก็บเลเวล ไอเท็ม และเพื่อนร่วมทีม</span></button><button id="m2"><b>⚔️ โหมดแรงค์</b><span>จัดทีมป้องกันจากตัวละครในเซฟ (เลเวลสูงสุด 99) แล้วท้าโจมตีทีมของผู้เล่นอื่นด้วยตัวละครจากเซฟของคุณ</span></button></div></div>
 <div class="ov" id="menu"><div class="row"><button id="mb"><b>↩ เปลี่ยนโหมด</b></button></div><h1>ปาร์ตี้นักสู้</h1><p>เลือกตัวละครเริ่มต้น ผ่านบอสทุก 5 เวฟเพื่อได้เพื่อนร่วมทีมเพิ่ม<br>ปาร์ตี้สูงสุด 4 คน</p><div class="row" id="cls"></div><p id="best"></p><div class="row cd"><input id="nm" placeholder="ชื่อเล่นสำหรับลีดเดอร์บอร์ด" maxlength="14" autocomplete="off"></div><div class="row"><button id="ld"><b>💾 เล่นต่อ / ไฟล์เซฟ</b><span id="lds"></span></button></div><div class="row"><button id="lbb"><b>🏆 ลีดเดอร์บอร์ด</b><span>ดูอันดับของคุณและเพื่อน</span></button></div><div class="row cd"><input id="cd" placeholder="รหัสลับ (เช่น GIVEALL)" autocomplete="off"><button id="cb">ใช้รหัส</button></div><p id="cm"></p></div>
 <div class="ov" id="shop"><h2 id="sh"></h2><p class="ok" id="sn"></p><p id="si"></p><p id="inv"></p><div class="row" id="sl"></div><div class="row"><button id="ge"><b>⚔️ วิวัฒนาการตัวละคร</b><span>ใช้ไอเท็มที่ดรอปและเลเวลทีม</span></button><button id="gsk"><b>🎨 ร้านสกิน / สุ่มสกิน</b><span>เปลี่ยนสีและออร่าตัวละคร</span></button><button id="gwp"><b>🗡️ ร้านอาวุธ</b><span>ซื้อ อัปเลเวล และสวมใส่อาวุธ (ถึงอีปิค)</span></button><button id="gdk"><b>🌑 ร้านค้ามืด</b><span>สกิลลีเจนดารี่และสกินหายาก สต็อกเปลี่ยนทุกเวฟ</span></button><button id="glb"><b>🏆 ลีดเดอร์บอร์ด</b><span>ดูอันดับเวฟของคุณและเพื่อน</span></button><button id="gm"><b>🏠 กลับเมนู</b><span>เกมบันทึกอัตโนมัติแล้ว โหลดต่อได้ภายหลัง</span></button><button id="gt"><b>👥 จัดทีม / ตำแหน่ง</b><span>สลับแถวหน้า-หลัง เปลี่ยนตัว เลือกสกิล</span></button><button id="gg"><b>🎰 กาชาสกิล</b><span>สุ่มสกิลแรร์ → ลีเจนดารี่</span></button></div><div class="row cd"><input id="cd2" placeholder="รหัสลับ (เช่น GIVEALL)" autocomplete="off"><button id="cb2">ใช้รหัส</button></div><p id="cm2"></p><div class="row"><button class="go" id="nx">เริ่มเวฟถัดไป</button></div></div>
 <div class='ov' id='sv'><h2>💾 ไฟล์เซฟ</h2><p id='svi'></p><div class='row' id='svl'></div><div class='row'><button class='go' id='svb'>กลับ</button></div></div>
@@ -69,9 +69,14 @@ button.go{background:var(--gold);color:#241a05;border-color:var(--gold);text-ali
 <div class="ov" id="rl"><h2>🏆 อันดับแรงค์</h2><div class="row" id="rll"></div><div class="row"><button class="go" id="rlb">กลับ</button></div></div>
 <div class="ov" id="wp"><h2>🗡️ ร้านอาวุธ</h2><p class="ok" id="wpi"></p><p>ซื้อซ้ำเพื่ออัปเลเวลอาวุธ (สูงสุด Lv.5) • อาวุธลีเจนดารี่ต้องหาที่ 🌑 ร้านค้ามืด</p><div class="row" id="wps"></div><h2 style="font-size:17px">สวมใส่อาวุธ</h2><div class="row" id="wpe"></div><div class="row"><button class="go" id="wpb">กลับร้านค้า</button></div></div>
 <div class="ov" id="over"><h2>ทีมพ่ายแพ้</h2><p id="ot"></p><div class="row"><button id="lb2"><b>🏆 ดูอันดับลีดเดอร์บอร์ด</b></button><button class="go" id="again">เล่นใหม่</button></div></div>
+<div class="ov" id="au" style="z-index:100;background:#0f1320"><h1>ปาร์ตี้นักสู้</h1><p>เข้าสู่ระบบเพื่อเก็บคะแนนและเซฟออนไลน์</p><div class="row"><input id="an" placeholder="ชื่อผู้ใช้ (3-14 ตัว)" maxlength="14" autocomplete="username" autocapitalize="off" autocorrect="off" spellcheck="false"><input id="ap" type="password" placeholder="รหัสผ่าน (6 ตัวขึ้นไป)" maxlength="100" autocomplete="current-password"></div><p id="ae" style="color:#ff8a80;min-height:1.3em;margin:0"></p><div class="row"><button class="go" id="al">เข้าสู่ระบบ</button><button id="ar">สมัครบัญชีใหม่</button><button id="ag">เล่นโดยไม่ล็อกอิน</button></div></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
+let ACCT=null;try{ACCT=JSON.parse(localStorage.getItem('turnacct')||'null')}catch(e){}
+if(!ACCT||typeof ACCT.id!=='string'||typeof ACCT.name!=='string')ACCT=null;
+const NS=ACCT?':'+ACCT.id:'';
+
 const $=id=>document.getElementById(id),cv=$('cv'),wrap=$('wrap'),lbs=$('lbs');
 const CL={warrior:{n:'นักรบ',hp:150,atk:16,col:0xe5934b,sk:'ฟันกวาด',d:'เลือดอึด สกิลโจมตีศัตรูทุกตัว'},
 archer:{n:'นักธนู',hp:110,atk:15,col:0x7bd88f,sk:'ยิงสามดอก',d:'โจมตีระยะไกล สกิลยิงสุ่ม 3 ครั้ง'},
@@ -296,7 +301,7 @@ function sw(u,a0,a1,ms){const a=u.g.userData.arms;if(!a)return sleep(ms);const r
 function idle(u,t){skAnim(u.g,t);const s=Math.sin(t/380+u.ph),a=u.g.userData.arms,w=u.g.userData.wings;u.g.scale.y=u.s0*(1+s*.018);if(a&&!u.sw){a[0].rotation.x=.07*s;a[1].rotation.x=-.07*s}if(w)w.forEach((x,i)=>x.rotation.x=(i?1:-1)*(.5+.4*Math.sin(t/110+u.ph)))}
 const tw=(o,x,z,ms,y)=>new Promise(res=>{const a=o.position.clone(),t0=performance.now();(function f(){const k=Math.min(1,(performance.now()-t0)/ms);o.position.x=a.x+(x-a.x)*k;o.position.z=a.z+(z-a.z)*k;if(y!==undefined)o.position.y=a.y+(y-a.y)*k;k<1?requestAnimationFrame(f):res()})()});
 let party=[],foes=[],wave=0,round=1,gold=0,lv=1,xp=0,xn=30,sel=null,cur=null,pick=null,pend={xp:0,g:0},team={atk:1,hp:0,mp:0},best=0;
-try{best=+localStorage.getItem('turnbest')||0}catch(e){}
+try{best=+localStorage.getItem('turnbest'+NS)||0}catch(e){}
 function unit(o,g,foe){o.g=g;o.foe=foe;o.ph=Math.random()*6;o.s0=g.scale.x;o.col=g.userData.col;const d=document.createElement('div');d.className='lb'+(foe?' f':'');d.innerHTML='<span></span><i><b></b></i>';if(foe)d.onclick=()=>{if(o.hp>0)sel=o};lbs.appendChild(d);o.lb=d;S.add(g);return o}
 function addMember(c){const k=CL[c],s=Math.pow(1.15,lv-1),mhp=Math.round((k.hp+team.hp)*s);
 party.push(unit({c,name:k.n,mhp,hp:mhp,atk:k.atk*team.atk*s,mmp:10+team.mp,mp:10+team.mp,def:false},mk(k.col,'p',.92,c),false));layout()}
@@ -373,7 +378,7 @@ if(k==='p'){gold-=pc();party.forEach(m=>m.hp=Math.min(m.mhp,m.hp+m.mhp*.5))}else
 $('nx').onclick=()=>{show('');nextWave()};
 function nextWave(){wave++;setup();battle()}
 function show(id){['menu','shop','over','evo','gch','tm','skp','lbo','sv','skn','dk','md','rk','re','ro','rl','wp'].forEach(k=>$(k).classList.toggle('on',k===id))}
-function gameOver(){if(wave>best){best=wave;try{localStorage.setItem('turnbest',best)}catch(e){}}
+function gameOver(){if(wave>best){best=wave;try{localStorage.setItem('turnbest'+NS,best)}catch(e){}}
 $('ot').textContent='ไปถึงเวฟ '+wave+' • เลเวลทีม '+lv+' • เวฟสูงสุด '+best;$('pn').classList.remove('on');show('over')}
 function reset(){run++;pick=null;cur=null;[...party,...bench,...foes].forEach(u=>{S.remove(u.g);u.lb.remove()});party=[];bench=[];foes=[];wave=0;gold=0;lv=1;xp=0;xn=30;team={atk:1,hp:0,mp:0};cnt.fill(0);Object.keys(ult).forEach(k=>delete ult[k]);applyTheme(0);Object.keys(inv).forEach(k=>inv[k]=0);own={};ownSk={};Object.keys(ownW).forEach(k=>delete ownW[k]);darkS=[];pty=0;ptl=0;bfm=1;$('pn').classList.remove('on')}
 function menu(){refreshSaves();reset();show('md');$('best').textContent=best?'เวฟสูงสุด: '+best:''}
@@ -492,26 +497,43 @@ if(ar){const sh=new THREE.Mesh(new THREE.CylinderGeometry(.03,.03,1.1,5),new THR
 p.position.set(x0,1.5,z0);S.add(p);const iv=setInterval(()=>{burst(p.position.x,p.position.y,p.position.z,col,3,.6,.45);glow(p.position.x,p.position.y,p.position.z,col,.9,.25)},30);
 await tw(p,b.g.position.x,b.g.position.z,260,1.1);clearInterval(iv);S.remove(p);ring(b.g.position.x,b.g.position.z,col,2.5)}
 let nick='';try{nick=localStorage.getItem('turnnick')||''}catch(e){}
-if(!nick){nick='ผู้เล่น'+(100+Math.floor(Math.random()*900));try{localStorage.setItem('turnnick',nick)}catch(e){}}
+if(ACCT)nick=ACCT.name;if(!nick){nick='ผู้เล่น'+(100+Math.floor(Math.random()*900));try{localStorage.setItem('turnnick',nick)}catch(e){}}
 $('nm').value=nick;$('nm').onchange=()=>{const v=$('nm').value.trim().slice(0,14);nick=v||nick;$('nm').value=nick;try{localStorage.setItem('turnnick',nick)}catch(e){}};
+if(ACCT){$('nm').readOnly=true;$('nm').title='ชื่อบัญชี'}
 let lbDb=null,myId=null,lbRows=[],lbStat='กำลังโหลด...',lbBusy=0,lbBack='menu';
 function renderLB(){const el=$('lt');el.textContent='';let myR=-1;lbRows.forEach((r,i)=>{if(r.id===myId)myR=i;const d=document.createElement('div'),a=document.createElement('span'),b=document.createElement('b');d.className='lr'+(r.id===myId?' me':'');a.textContent=(i<3?['🥇','🥈','🥉'][i]:'#'+(i+1))+' '+String(r.name||'ผู้เล่น').slice(0,16)+(r.id===myId?' (คุณ)':'');b.textContent='เวฟ '+String(r.wave);d.append(a,b);el.append(d)});
-$('lbm').textContent=lbStat||(!lbRows.length?'ยังไม่มีใครบนบอร์ด เป็นคนแรกเลย!':myR>=0?'อันดับของคุณ: #'+(myR+1)+' จาก '+lbRows.length+' คน':'คุณยังไม่มีคะแนนบนบอร์ด')}
+$('lbm').textContent=lbStat||(ACCT?'':'ล็อกอินเพื่อให้คะแนนของคุณขึ้นบอร์ด')||(!lbRows.length?'ยังไม่มีใครบนบอร์ด เป็นคนแรกเลย!':myR>=0?'อันดับของคุณ: #'+(myR+1)+' จาก '+lbRows.length+' คน':'คุณยังไม่มีคะแนนบนบอร์ด')}
 $('lbb').onclick=()=>{lbBack='menu';renderLB();show('lbo')};$('lb2').onclick=()=>{lbBack='over';renderLB();show('lbo')};$('glb').onclick=()=>{lbBack='shop';renderLB();show('lbo')};$('lbx').onclick=()=>show(lbBack);
-async function submitLB(w){if(!lbDb||!myId||lbBusy)return;const me=lbRows.find(r=>r.id===myId);if(me&&me.wave>=w&&me.name===nick)return;lbBusy=1;try{await lbDb.doc('lb/'+myId).set({name:nick,wave:w,lv:lv,t:Date.now()});lbStat='';window.__lbRun&&window.__lbRun()}catch(e){lbStat='บันทึกคะแนนไม่ได้ ('+(e&&e.code||'error')+') ลองใหม่อีกครั้ง'}lbBusy=0;renderLB()}
-function mkDb(){const A='/api/db',J=async(u,o)=>{const r=await fetch(u,o);if(!r.ok){const e=new Error('http');e.code=r.status;throw e}return r.json()};
+async function submitLB(w){if(!lbDb||!myId||lbBusy)return;const me=lbRows.find(r=>r.id===myId);if(me&&me.wave>=w&&me.name===nick)return;lbBusy=1;try{await lbDb.doc('lb/'+myId).set({name:nick,wave:w,lv:lv,t:Date.now()});lbStat='';window.__lbRun&&window.__lbRun()}catch(e){lbStat='บันทึกคะแนนไม่ได้ ('+(e&&e.code||'error')+')'+(e&&e.code===401?' เซสชันหมดอายุ ให้ออกจากระบบแล้วเข้าสู่ระบบใหม่':' ลองใหม่อีกครั้ง')}lbBusy=0;renderLB()}
+function mkDb(){const A='/api/db',J=async(u,o)=>{const r=await fetch(u,o);if(!r.ok){if(r.status===401&&o&&o.method==='PUT'){try{localStorage.removeItem('turnacct')}catch(x){}}const e=new Error('http');e.code=r.status;throw e}return r.json()};
 const P=p=>{let m;if(m=p.match(/^(lb|rank)\/(.+)$/))return[m[1],m[2]];if(m=p.match(/^data\/users\/(.+)\/saves$/))return['saves',m[1]];throw new Error('bad path')};
 const W=a=>({docs:a.map(x=>({id:x.id,data:()=>{const d=Object.assign({},x);delete d.id;return d}}))});
 return{doc:p=>{const[c,id]=P(p);return{set:data=>J(A,{method:'PUT',headers:{'content-type':'application/json'},body:JSON.stringify({col:c,id,data})}),get:async()=>{const r=await J(A+'?col='+c+'&id='+encodeURIComponent(id));return{exists:!!r.exists,data:()=>r.data}}}},
 collection:c=>{let f='',n=50;const q={orderBy(a){f=a;return q},limit(k){n=k;return q},get:async()=>W((await J(A+'?col='+c+'&order='+f+'&limit='+n)).docs),onSnapshot(ok,err){const run=()=>q.get().then(ok,err);window.__lbRun=run;run();setInterval(run,30000);return()=>{}}};return q}}}
-(()=>{let id='';try{id=localStorage.getItem('turnuid')||''}catch(e){}
-if(!/^[\w-]{8,64}$/.test(id)){id=(window.crypto&&crypto.randomUUID)?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2,12);try{localStorage.setItem('turnuid',id)}catch(e){}}
-myId=id;lbDb=mkDb();
+(()=>{myId=ACCT?ACCT.id:null;lbDb=mkDb();
 const to=setTimeout(()=>{lbStat='ติดต่อลีดเดอร์บอร์ดไม่ได้ในตอนนี้';renderLB()},10000);
-lbDb.collection('lb').orderBy('wave','desc').limit(100).onSnapshot(s=>{clearTimeout(to);lbRows=s.docs.map(d=>Object.assign({id:d.id},d.data()));lbStat='';renderLB()},e=>{clearTimeout(to);lbStat='ลีดเดอร์บอร์ดใช้ไม่ได้ ('+(e&&e.code||'error')+')';renderLB()})})();
+lbDb.collection('lb').orderBy('wave','desc').limit(100).onSnapshot(s=>{clearTimeout(to);lbRows=s.docs.map(d=>Object.assign({id:d.id},d.data()));lbStat='';renderLB()},e=>{clearTimeout(to);lbStat='ลีดเดอร์บอร์ดใช้ไม่ได้ ('+(e&&e.code||'error')+')';renderLB()});
+const A=x=>document.getElementById(x);
+A('acn').textContent=ACCT?'👤 '+ACCT.name:'👤 ผู้เล่นทั่วไป (ยังไม่ล็อกอิน)';A('aco').textContent=ACCT?'ออกจากระบบ':'เข้าสู่ระบบ';
+const openAu=()=>{A('ae').textContent='';A('au').classList.add('on')};
+const post=async b=>{const r=await fetch('/api/auth',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(b)});let d={};try{d=await r.json()}catch(e){}if(!r.ok)throw new Error(d.error||'เกิดข้อผิดพลาด ('+r.status+')');return d};
+const go=async act=>{const name=A('an').value.trim(),pw=A('ap').value;A('ae').textContent='';if(!name||!pw){A('ae').textContent='กรอกชื่อผู้ใช้และรหัสผ่านก่อน';return}
+A('al').disabled=A('ar').disabled=true;
+try{const d=await post({a:act,name,pw});
+if(act==='register'){['turnsaves','turnrank','turnbest'].forEach(k=>{try{const v=localStorage.getItem(k);if(v!=null&&localStorage.getItem(k+':'+d.user.id)==null)localStorage.setItem(k+':'+d.user.id,v)}catch(e){}})}
+localStorage.setItem('turnacct',JSON.stringify(d.user));localStorage.removeItem('turnguest');location.reload()}
+catch(e){A('ae').textContent=e.message||'เชื่อมต่อไม่ได้';A('al').disabled=A('ar').disabled=false}};
+A('al').onclick=()=>go('login');A('ar').onclick=()=>go('register');
+A('ap').onkeydown=e=>{if(e.key==='Enter')go('login')};
+A('ag').onclick=()=>{try{localStorage.setItem('turnguest','1')}catch(e){}A('au').classList.remove('on')};
+A('aco').onclick=async()=>{if(ACCT){try{await post({a:'logout'})}catch(e){}try{localStorage.removeItem('turnacct')}catch(e){}location.reload()}else openAu()};
+let g=null;try{g=localStorage.getItem('turnguest')}catch(e){}
+if(!ACCT&&!g)openAu();
+if(ACCT)fetch('/api/auth').then(r=>r.json()).then(d=>{if(!d.user||d.user.id!==ACCT.id){try{localStorage.removeItem('turnacct')}catch(e){}alert('เซสชันหมดอายุ กรุณาเข้าสู่ระบบใหม่');location.reload()}}).catch(()=>{});
+})();
 const esc=s=>String(s).replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
 let memS=null,cloudT=0;
-const readSaves=()=>{if(memS)return memS;try{return JSON.parse(localStorage.getItem('turnsaves')||'{}')}catch(e){return{}}},writeSaves=o=>{memS=o;try{localStorage.setItem('turnsaves',JSON.stringify(o))}catch(e){}};
+const readSaves=()=>{if(memS)return memS;try{return JSON.parse(localStorage.getItem('turnsaves'+NS)||'{}')}catch(e){return{}}},writeSaves=o=>{memS=o;try{localStorage.setItem('turnsaves'+NS,JSON.stringify(o))}catch(e){}};
 function snap(){const u=m=>({c:m.c,name:m.name,mhp:m.mhp,hp:m.hp,atk:m.atk,mmp:m.mmp,mp:m.mp,ev:m.ev||0,gs:m.gs||null,sk:m.sk||null,wp:m.wp||null,wa:m.wa||1,wh:m.wh||1,wm:m.wm||0});return{ow:Object.assign({},ownW),v:1,name:nick,t:Date.now(),wave,gold,lv,xp,xn,team:Object.assign({},team),inv:Object.assign({},inv),own:Object.assign({},own),osk:Object.assign({},ownSk),pty,ptl,ult:Object.assign({},ult),cnt:cnt.slice(),party:party.map(u),bench:bench.map(u)}}
 function saveGame(){if(!party.length||!wave)return;const s=readSaves();s[nick]=snap();writeSaves(s);cloudSave();refreshSaves()}
 function cloudSave(){if(!lbDb||!myId||cloudT)return;cloudT=setTimeout(async()=>{cloudT=0;try{await lbDb.doc('data/users/'+myId+'/saves').set({s:JSON.stringify(readSaves())})}catch(e){}},3000)}
@@ -553,14 +575,14 @@ $('ksh').onclick=e=>{const b=e.target.closest('button');if(!b||b.disabled)return
 $('kl').onclick=e=>{const b=e.target.closest('button');if(b)openSk(+b.dataset.i)};
 $('dkl').onclick=e=>{const b=e.target.closest('button');if(!b||b.disabled)return;const x=darkS[+b.dataset.i];if(!x||x.sold||gold<x.p)return;gold-=x.p;x.sold=1;if(x.t==='w')ownW[x.id]=Math.min(5,(ownW[x.id]||0)+1);else if(x.t==='k'){ownSk[x.id]=1;eqFree(x.id)}else{const nw=!own[x.id];own[x.id]=Math.min(5,(own[x.id]||0)+1);if(nw){const m=party.concat(bench).find(y=>!y.gs);if(m)m.gs=x.id}}refW();dkUI()};
 const TIERS=['ทองแดง','เงิน','ทอง','แพลทินัม','ไดมอนด์'],CAP=99,rk={rp:1000,w:0,l:0,def:null,att:null,roster:null};let ed=null,ropp=null;
-try{Object.assign(rk,JSON.parse(localStorage.getItem('turnrank')||'{}'))}catch(e){}
+try{Object.assign(rk,JSON.parse(localStorage.getItem('turnrank'+NS)||'{}'))}catch(e){}
 const tier=()=>TIERS[Math.max(0,Math.min(4,Math.floor((rk.rp-800)/200)))],num=(v,a,b)=>Math.min(b,Math.max(a,+v||a));
 const rkSan=x=>x&&CL[x.c]?{c:x.c,name:String(x.name||CL[x.c].n).slice(0,12),lv:num(x.lv,1,99),mhp:Math.round(num(x.mhp,1,1e12)),atk:num(x.atk,1,1e11),mmp:Math.round(num(x.mmp,1,60)),ev:num(x.ev,0,2)|0,gs:SKD[x.gs]?x.gs:'',sl:num(x.sl,1,5)|0,sk:SKN.some(k=>k.id===x.sk)?x.sk:'',w:WP[x.w]?x.w:'',wl:num(x.wl,1,5)|0}:null;
 function rkImp(d){const f=d.lv>CAP?Math.pow(1.15,CAP-d.lv):1;return{lv:Math.min(d.lv||1,CAP),own:d.own||{},osk:d.osk||{},ow:d.ow||{},u:d.party.concat(d.bench||[]).map(m=>({c:m.c,name:m.name,mhp:Math.round(m.mhp*f/(m.wh||1)),atk:m.atk*f/(m.wa||1),mmp:m.mmp-(m.wm||0),ev:m.ev||0}))}}
 function rkRes(e){const r=rk.roster,u=r&&r.u.find(x=>x.c===e.c);if(!u)return null;const o=Object.assign({lv:r.lv},u),i=(e.it||'').slice(2);if(e.it&&e.it[0]==='k'&&r.own[i]){o.gs=i;o.sl=Math.min(5,r.own[i])}else if(e.it&&e.it[0]==='s'&&r.osk[i])o.sk=i;else if(e.it&&e.it[0]==='w'&&WP[i]&&(r.ow||{})[i]){o.w=i;o.wl=Math.min(5,r.ow[i])}return o}
 const rkTeam=l=>(l||[]).map(rkRes).filter(Boolean);
 const SO=c=>{const r=rk.roster;let h='<option value="">— ไม่ใส่ของ —</option>';SKL.forEach(a=>{if(r.own[a[0]])h+=`<option value="k:${a[0]}">${RN[a[1]]} • ${a[2]} Lv.${Math.min(5,r.own[a[0]])}</option>`});SKN.forEach(k=>{if(r.osk[k.id])h+=`<option value="s:${k.id}">🎨 ${k.n}</option>`});Object.keys(r.ow||{}).forEach(k=>{const w=WP[k];if(w&&(!w.c||w.c.includes(c)))h+=`<option value="w:${k}">${w.i} ${w.n} [${RN[w.r]}] Lv.${r.ow[k]}</option>`});return h};
-function rkSave(){try{localStorage.setItem('turnrank',JSON.stringify(rk))}catch(e){}if(lbDb&&myId&&rk.def)lbDb.doc('rank/'+myId).set({name:nick,rp:rk.rp,def:rkTeam(rk.def),t:Date.now()}).catch(()=>{})}
+function rkSave(){try{localStorage.setItem('turnrank'+NS,JSON.stringify(rk))}catch(e){}if(lbDb&&myId&&rk.def)lbDb.doc('rank/'+myId).set({name:nick,rp:rk.rp,def:rkTeam(rk.def),t:Date.now()}).catch(()=>{})}
 function rkHub(){reset();$('rsv').textContent='';$('rki').textContent=nick+' • '+tier()+' '+rk.rp+' RP • ชนะ '+rk.w+' แพ้ '+rk.l;const r=rk.roster;$('rkt').textContent=!r?'ยังไม่ได้นำเข้าทีม — กดนำเข้าจากไฟล์เซฟโหมดไร้สิ้นสุดก่อน':'ตัวละครที่นำเข้า: '+r.u.map(u=>u.name).join(' • ')+' (เลเวลทีม '+r.lv+')'+(rk.def?'':' • ยังไม่ได้จัดทีมป้องกัน');$('rkd').disabled=$('rka').disabled=!r;$('rkf').disabled=!rk.def;$('rkm').textContent='';show('rk')}
 function rkEdit(k){ed={k,l:JSON.parse(JSON.stringify(rk[k]||(k==='att'&&rk.def)||[]))};$('reh').textContent=k==='def'?'🛡️ ทีมป้องกัน':'⚔️ ทีมโจมตี';$('rem').textContent='';reUI();show('re')}
 function reUI(){const L=ed.l,r=rk.roster,so=SO();let h='';L.forEach((m,i)=>{const u=r.u.find(x=>x.c===m.c);h+=`<div class="pm"><span><b>${i<2?'🛡️ หน้า':'🏹 หลัง'}</b> ${u.name} Lv.${r.lv}<br><select data-i="${i}">${SO(m.c)}</select></span><button data-a="u" data-i="${i}" ${i?'':'disabled'}>▲</button><button data-a="x" data-i="${i}">✕</button></div>`});r.u.filter(u=>!L.some(m=>m.c===u.c)).forEach(u=>h+=`<button data-a="n" data-c="${u.c}">➕ ${u.name}</button>`);$('rel').innerHTML=h;$('rel').querySelectorAll('select').forEach(s=>s.value=L[+s.dataset.i].it||'')}
