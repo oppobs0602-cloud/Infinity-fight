@@ -54,7 +54,10 @@ button.go{background:var(--gold);color:#241a05;border-color:var(--gold);text-ali
 <div id="pn"><div id="who"></div><div class="r3"><button id="ba">โจมตี</button><button id="bs"></button><button id="bu" style="display:none"></button><button id="bg" style="display:none"></button><button id="bd">ป้องกัน</button></div><p>แตะชื่อศัตรูเพื่อเลือกเป้าหมาย • ป้องกันลดดาเมจครึ่งหนึ่งและได้ MP +2</p></div>
 <div class="ov on" id="md"><h1>ปาร์ตี้นักสู้</h1><p>เลือกโหมดที่จะเล่น</p><div class="row cd" id="acb" style="justify-content:space-between;font-size:13px"><span id="acn"></span><button id="aco" style="flex:none"></button></div><div class="row"><button id="m1"><b>♾️ โหมดไร้สิ้นสุด</b><span>สู้เวฟไปเรื่อยๆ เก็บเลเวล ไอเท็ม และเพื่อนร่วมทีม</span></button><button id="m2"><b>⚔️ โหมดแรงค์</b><span>จัดทีมป้องกันจากตัวละครในเซฟ (เลเวลสูงสุด 99) แล้วท้าโจมตีทีมของผู้เล่นอื่นด้วยตัวละครจากเซฟของคุณ</span></button></div></div>
 <div class="ov" id="menu"><div class="row"><button id="mb"><b>↩ เปลี่ยนโหมด</b></button></div><h1>ปาร์ตี้นักสู้</h1><p>เลือกตัวละครเริ่มต้น ผ่านบอสทุก 5 เวฟเพื่อได้เพื่อนร่วมทีมเพิ่ม<br>ปาร์ตี้สูงสุด 4 คน</p><div class="row" id="cls"></div><p id="best"></p><div class="row cd"><input id="nm" placeholder="ชื่อเล่นสำหรับลีดเดอร์บอร์ด" maxlength="14" autocomplete="off"></div><div class="row"><button id="ld"><b>💾 เล่นต่อ / ไฟล์เซฟ</b><span id="lds"></span></button></div><div class="row"><button id="lbb"><b>🏆 ลีดเดอร์บอร์ด</b><span>ดูอันดับของคุณและเพื่อน</span></button></div><div class="row cd"><input id="cd" placeholder="รหัสลับ (เช่น GIVEALL)" autocomplete="off"><button id="cb">ใช้รหัส</button></div><p id="cm"></p></div>
-<div class="ov" id="shop"><h2 id="sh"></h2><p class="ok" id="sn"></p><p id="si"></p><p id="inv"></p><div class="row" id="sl"></div><div class="row"><button id="ge"><b>⚔️ วิวัฒนาการตัวละคร</b><span>ใช้ไอเท็มที่ดรอปและเลเวลทีม</span></button><button id="gsk"><b>🎨 ร้านสกิน / สุ่มสกิน</b><span>เปลี่ยนสีและออร่าตัวละคร</span></button><button id="gwp"><b>🗡️ ร้านอาวุธ</b><span>ซื้อ อัปเลเวล และสวมใส่อาวุธ (ถึงอีปิค)</span></button><button id="gdk"><b>🌑 ร้านค้ามืด</b><span>สกิลลีเจนดารี่และสกินหายาก สต็อกเปลี่ยนทุกเวฟ</span></button><button id="glb"><b>🏆 ลีดเดอร์บอร์ด</b><span>ดูอันดับเวฟของคุณและเพื่อน</span></button><button id="gm"><b>🏠 กลับเมนู</b><span>เกมบันทึกอัตโนมัติแล้ว โหลดต่อได้ภายหลัง</span></button><button id="gt"><b>👥 จัดทีม / ตำแหน่ง</b><span>สลับแถวหน้า-หลัง เปลี่ยนตัว เลือกสกิล</span></button><button id="gg"><b>🎰 กาชาสกิล</b><span>สุ่มสกิลแรร์ → ลีเจนดารี่</span></button></div><div class="row cd"><input id="cd2" placeholder="รหัสลับ (เช่น GIVEALL)" autocomplete="off"><button id="cb2">ใช้รหัส</button></div><p id="cm2"></p><div class="row"><button class="go" id="nx">เริ่มเวฟถัดไป</button></div></div>
+<div class='ov' id='fm'><h2>🏡 ฟาร์มสัตว์เลี้ยง</h2><p id='pfi'></p><div class='row' id='pfl'></div><div class='row'><button class='go' id='fmb'>กลับร้านค้า</button></div></div>
+<div class='ov' id='pw'><h2>🌲 ป่าล่าสัตว์</h2><p id='pwi'></p><p class='ok' id='pwm'></p><div id='pwc' style='font-size:16px'></div><div class='row'><button id='pwb'></button><button id='pwg'>🌲 เข้าป่าหาสัตว์</button><button id='pwu'>🪤 ใช้ที่จับ</button><button id='pwf'>ปล่อยให้ไป</button><button id='pwn'>🪹 บุกรังสัตว์ (ขโมยไข่)</button><button class='go' id='pwx'>กลับร้านค้า</button></div></div>
+<div class='ov' id='ng'><h2>🪹 บุกรังสัตว์</h2><p id='ngi'></p><div id='ngs' style='font-size:24px;margin:8px 0'></div><div style='width:90%;max-width:360px;height:18px;background:#222;border-radius:9px;overflow:hidden;border:1px solid #555'><div id='ngb' style='height:100%;width:0;background:#7bd88f'></div></div><p id='ngl' style='font-size:22px'></p><div class='row'><button id='ngh' style='touch-action:none;user-select:none;-webkit-user-select:none;padding:22px'>🤫 กดค้างเพื่อย่อง</button><button id='ngx'>ถอยออก</button></div></div>
+<div class="ov" id="shop"><h2 id="sh"></h2><p class="ok" id="sn"></p><p id="si"></p><p id="inv"></p><div class="row" id="sl"></div><div class="row"><button id="ge"><b>⚔️ วิวัฒนาการตัวละคร</b><span>ใช้ไอเท็มที่ดรอปและเลเวลทีม</span></button><button id="gsk"><b>🎨 ร้านสกิน / สุ่มสกิน</b><span>เปลี่ยนสีและออร่าตัวละคร</span></button><button id="gwp"><b>🗡️ ร้านอาวุธ</b><span>ซื้อ อัปเลเวล และสวมใส่อาวุธ (ถึงอีปิค)</span></button><button id="gdk"><b>🌑 ร้านค้ามืด</b><span>สกิลลีเจนดารี่และสกินหายาก สต็อกเปลี่ยนทุกเวฟ</span></button><button id="glb"><b>🏆 ลีดเดอร์บอร์ด</b><span>ดูอันดับเวฟของคุณและเพื่อน</span></button><button id="gfm"><b>🏡 ฟาร์มสัตว์เลี้ยง</b><span>เลี้ยง ใส่ทีม ปล่อยสัตว์ • อายุ +1 ปีทุก 10 เวฟ</span></button><button id="gpw"><b>🌲 ออกล่าสัตว์ป่า</b><span>ปลดล็อกเมื่อผ่านเวฟ 20 • ต้องซื้อที่จับ</span></button><button id="gm"><b>🏠 กลับเมนู</b><span>เกมบันทึกอัตโนมัติแล้ว โหลดต่อได้ภายหลัง</span></button><button id="gt"><b>👥 จัดทีม / ตำแหน่ง</b><span>สลับแถวหน้า-หลัง เปลี่ยนตัว เลือกสกิล</span></button><button id="gg"><b>🎰 กาชาสกิล</b><span>สุ่มสกิลแรร์ → ลีเจนดารี่</span></button></div><div class="row cd"><input id="cd2" placeholder="รหัสลับ (เช่น GIVEALL)" autocomplete="off"><button id="cb2">ใช้รหัส</button></div><p id="cm2"></p><div class="row"><button class="go" id="nx">เริ่มเวฟถัดไป</button></div></div>
 <div class='ov' id='sv'><h2>💾 ไฟล์เซฟ</h2><p id='svi'></p><div class='row' id='svl'></div><div class='row'><button class='go' id='svb'>กลับ</button></div></div>
 <div class='ov' id='tm'><h2>👥 จัดทีม</h2><p>ลำดับ 1-2 = แถวหน้า (ศัตรูโจมตีบ่อยกว่า) • ลำดับ 3-4 = แถวหลัง</p><p class='ok' id='tn'></p><div class='row' id='tp'></div><h2 style='font-size:17px'>ตัวสำรอง</h2><div class='row' id='tbn'></div><div class='row'><button class='go' id='tbk'>กลับร้านค้า</button></div></div>
 <div class='ov' id='skp'><h2 id='sph'></h2><p>เลือกสกิลจากกาชาที่ต้องการใส่</p><div class='row' id='spl'></div><div class='row'><button class='go' id='spb'>กลับ</button></div></div>
@@ -64,7 +67,7 @@ button.go{background:var(--gold);color:#241a05;border-color:var(--gold);text-ali
 <div class="ov" id="evo"><h2>วิวัฒนาการ</h2><p id="ei"></p><p class="ok" id="em"></p><div class="row" id="el"></div><div class="row"><button class="go" id="eb">กลับร้านค้า</button></div></div>
 <div class="ov" id="gch"><h2>🎰 กาชาสกิล</h2><p id="gi"></p><div class="row"><button id="g1"></button><button id="g10"></button></div><div class="gres" id="gr"></div><div class="row" id="gl"></div><h2 style='font-size:17px'>🛒 ร้านสกิล (ถึงอีปิค)</h2><p>สกิลลีเจนดารี่ต้องหาที่ 🌑 ร้านค้ามืด • ซื้อซ้ำเพื่ออัปเลเวลสกิล (สูงสุด Lv.5) แล้วแตะตัวละครด้านบนเพื่อเปลี่ยนสกิล</p><div class="row" id="gsh"></div><div class="row"><button class="go" id="gb">กลับร้านค้า</button></div></div>
 <div class="ov" id="rk"><h2>⚔️ โหมดแรงค์</h2><p class="ok" id="rki"></p><p id="rkt"></p><p>ใช้ตัวละคร เลเวล และของจากเซฟโหมดไร้สิ้นสุด • เลเวลสูงสุด 99 • ใส่ของได้ตัวละ 1 ชิ้น • ทีมป้องกันสู้เองอัตโนมัติเมื่อมีคนมาโจมตี</p><div class="row"><button id="rki2"><b>📥 นำเข้าทีมจากโหมดไร้สิ้นสุด</b><span>เลือกไฟล์เซฟที่จะนำตัวละครมาใช้</span></button><div class="row" id="rsv"></div><button id="rkd"><b>🛡️ จัดทีมป้องกัน</b><span>ทีมที่คนอื่นจะมาท้าสู้</span></button><button id="rka"><b>⚔️ จัดทีมโจมตี</b><span>ทีมที่คุณควบคุมเอง</span></button><button class="go" id="rkf">🎯 หาคู่ต่อสู้</button><button id="rkl"><b>🏆 อันดับแรงค์</b></button><button id="rkb"><b>↩ กลับเลือกโหมด</b></button></div><p id="rkm"></p></div>
-<div class="ov" id="re"><h2 id="reh"></h2><p>เลเวลตามเซฟ (สูงสุด 99) • ของ = สกิลหรือสกินที่มี เลือกได้ตัวละ 1 ชิ้น • ลำดับ 1-2 แถวหน้า</p><p class="ok" id="rem"></p><div class="row" id="rel"></div><div class="row"><button class="go" id="res">บันทึกทีม</button><button id="reb">ยกเลิก</button></div></div>
+<div class="ov" id="re"><h2 id="reh"></h2><p>เลเวลตามเซฟ (สูงสุด 99) • ของ = สกิลหรือสกินที่มี เลือกได้ตัวละ 1 ชิ้น • ลำดับ 1-2 แถวหน้า</p><p class="ok" id="rem"></p><div class="row"><select id="rep"></select></div><div class="row" id="rel"></div><div class="row"><button class="go" id="res">บันทึกทีม</button><button id="reb">ยกเลิก</button></div></div>
 <div class="ov" id="ro"><h2 id="rot"></h2><p id="rop"></p><div class="row"><button class="go" id="rof">🎯 หาคู่ต่อสู้ต่อ</button><button id="rob">กลับหน้าแรงค์</button></div></div>
 <div class="ov" id="rl"><h2>🏆 อันดับแรงค์</h2><div class="row" id="rll"></div><div class="row"><button class="go" id="rlb">กลับ</button></div></div>
 <div class="ov" id="wp"><h2>🗡️ ร้านอาวุธ</h2><p class="ok" id="wpi"></p><p>ซื้อซ้ำเพื่ออัปเลเวลอาวุธ (สูงสุด Lv.5) • อาวุธลีเจนดารี่ต้องหาที่ 🌑 ร้านค้ามืด</p><div class="row" id="wps"></div><h2 style="font-size:17px">สวมใส่อาวุธ</h2><div class="row" id="wpe"></div><div class="row"><button class="go" id="wpb">กลับร้านค้า</button></div></div>
@@ -358,6 +361,7 @@ async function battle(){const id=++run;await sleep(1500);
 while(id===run){
 for(const m of party){if(m.hp<=0)continue;if(!alive(foes))break;await doAct(m,await choose(m));if(id!==run)return}
 if(!alive(foes))break;
+await petAct();if(id!==run)return;if(!alive(foes))break;
 for(const e of foes){if(e.hp<=0)continue;await eAct(e);if(id!==run)return;if(!alive(party)){gameOver();return}}
 round++;party.forEach(m=>{m.mp=Math.min(m.mmp,m.mp+3);m.def=false})}
 win()}
@@ -365,7 +369,7 @@ const UP=[{n:'ลับอาวุธ: พลังโจมตี +15%',b:60,f
 {n:'เกราะเสริม: HP สูงสุด +25',b:50,f:()=>{team.hp+=25;party.concat(bench).forEach(m=>{m.mhp+=25;m.hp+=25})}},
 {n:'คริสตัลมานา: MP สูงสุด +2',b:55,f:()=>{team.mp+=2;party.concat(bench).forEach(m=>{m.mmp+=2;m.mp+=2})}}];
 const ult={},UL={warrior:{n:'ดาบทำลายฟ้า',d:'โจมตีศัตรูทุกตัวแรง 2.5 เท่า',b:200},archer:{n:'ห่าธนูพิฆาต',d:'ยิงสุ่ม 6 ดอก ดอกละ 1.2 เท่า',b:200},mage:{n:'อุกกาบาต',d:'ระเบิดใส่ศัตรูทุกตัวแรง 3 เท่า',b:220},healer:{n:'พรแห่งชีวิต',d:'ฟื้น HP ทีม 60% และชุบเพื่อนที่ล้ม',b:180}},cnt=[0,0,0],pc=()=>15+wave*3,price=i=>Math.round(UP[i].b*(1+.4*cnt[i]));
-function win(){genStock();party.forEach(m=>{m.def=false;m.atk/=bfm});bfm=1;submitLB(wave);bench.forEach(m=>{m.hp=m.mhp;m.mp=m.mmp});gold+=pend.g;xp+=pend.xp;let up=0;
+function win(){genStock();petWave();party.forEach(m=>{m.def=false;m.atk/=bfm});bfm=1;submitLB(wave);bench.forEach(m=>{m.hp=m.mhp;m.mp=m.mmp});gold+=pend.g;xp+=pend.xp;let up=0;
 while(xp>=xn){xp-=xn;xn=Math.round(xn*1.3+10);lv++;up++;party.concat(bench).forEach(m=>{m.mhp=Math.round(m.mhp*1.15);m.atk*=1.15;m.hp=Math.min(m.mhp,m.hp+m.mhp*.4)})}
 party.forEach(m=>{if(m.hp<=0){m.hp=Math.max(1,Math.round(m.mhp*.4));m.g.visible=true}m.mp=Math.min(m.mmp,m.mp+3)});
 let note='';if(wave%5===0){applyTheme(wave/5);const c=ORDER.find(k=>!party.concat(bench).some(p=>p.c===k));if(c&&party.length<4){addMember(c);note=CL[c].n+' เข้าร่วมปาร์ตี้! ('+party.length+'/4)'}else{gold+=150;note='ปาร์ตี้เต็มแล้ว ได้โบนัสทอง 150'}}
@@ -377,10 +381,10 @@ $('sl').onclick=e=>{const b=e.target.closest('button');if(!b||b.disabled)return;
 if(k==='p'){gold-=pc();party.forEach(m=>m.hp=Math.min(m.mhp,m.hp+m.mhp*.5))}else if(k[0]==='u'){const c=k.slice(2);gold-=UL[c].b;ult[c]=1}else{gold-=price(+k);cnt[+k]++;UP[+k].f()}shopUI()};
 $('nx').onclick=()=>{show('');nextWave()};
 function nextWave(){wave++;setup();battle()}
-function show(id){['menu','shop','over','evo','gch','tm','skp','lbo','sv','skn','dk','md','rk','re','ro','rl','wp'].forEach(k=>$(k).classList.toggle('on',k===id))}
+function show(id){['menu','shop','over','evo','gch','tm','skp','lbo','sv','skn','dk','md','rk','re','ro','rl','wp','fm','pw','ng'].forEach(k=>$(k).classList.toggle('on',k===id))}
 function gameOver(){if(wave>best){best=wave;try{localStorage.setItem('turnbest'+NS,best)}catch(e){}}
 $('ot').textContent='ไปถึงเวฟ '+wave+' • เลเวลทีม '+lv+' • เวฟสูงสุด '+best;$('pn').classList.remove('on');show('over')}
-function reset(){run++;pick=null;cur=null;[...party,...bench,...foes].forEach(u=>{S.remove(u.g);u.lb.remove()});party=[];bench=[];foes=[];wave=0;gold=0;lv=1;xp=0;xn=30;team={atk:1,hp:0,mp:0};cnt.fill(0);Object.keys(ult).forEach(k=>delete ult[k]);applyTheme(0);Object.keys(inv).forEach(k=>inv[k]=0);own={};ownSk={};Object.keys(ownW).forEach(k=>delete ownW[k]);darkS=[];pty=0;ptl=0;bfm=1;$('pn').classList.remove('on')}
+function reset(){run++;pick=null;cur=null;[...party,...bench,...foes].forEach(u=>{S.remove(u.g);u.lb.remove()});party=[];bench=[];foes=[];wave=0;gold=0;lv=1;xp=0;xn=30;team={atk:1,hp:0,mp:0};cnt.fill(0);Object.keys(ult).forEach(k=>delete ult[k]);applyTheme(0);Object.keys(inv).forEach(k=>inv[k]=0);own={};ownSk={};Object.keys(ownW).forEach(k=>delete ownW[k]);darkS=[];pty=0;ptl=0;bfm=1;petReset();$('pn').classList.remove('on')}
 function menu(){refreshSaves();reset();show('md');$('best').textContent=best?'เวฟสูงสุด: '+best:''}
 $('again').onclick=menu;
 let godNext=false;
@@ -534,7 +538,7 @@ if(ACCT)fetch('/api/auth').then(r=>r.json()).then(d=>{if(!d.user||d.user.id!==AC
 const esc=s=>String(s).replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
 let memS=null,cloudT=0;
 const readSaves=()=>{if(memS)return memS;try{return JSON.parse(localStorage.getItem('turnsaves'+NS)||'{}')}catch(e){return{}}},writeSaves=o=>{memS=o;try{localStorage.setItem('turnsaves'+NS,JSON.stringify(o))}catch(e){}};
-function snap(){const u=m=>({c:m.c,name:m.name,mhp:m.mhp,hp:m.hp,atk:m.atk,mmp:m.mmp,mp:m.mp,ev:m.ev||0,gs:m.gs||null,sk:m.sk||null,wp:m.wp||null,wa:m.wa||1,wh:m.wh||1,wm:m.wm||0});return{ow:Object.assign({},ownW),v:1,name:nick,t:Date.now(),wave,gold,lv,xp,xn,team:Object.assign({},team),inv:Object.assign({},inv),own:Object.assign({},own),osk:Object.assign({},ownSk),pty,ptl,ult:Object.assign({},ult),cnt:cnt.slice(),party:party.map(u),bench:bench.map(u)}}
+function snap(){const u=m=>({c:m.c,name:m.name,mhp:m.mhp,hp:m.hp,atk:m.atk,mmp:m.mmp,mp:m.mp,ev:m.ev||0,gs:m.gs||null,sk:m.sk||null,wp:m.wp||null,wa:m.wa||1,wh:m.wh||1,wm:m.wm||0});return{pf:farm.map(p=>Object.assign({},p)),ap:actPet?farm.indexOf(actPet):-1,ow:Object.assign({},ownW),v:1,name:nick,t:Date.now(),wave,gold,lv,xp,xn,team:Object.assign({},team),inv:Object.assign({},inv),own:Object.assign({},own),osk:Object.assign({},ownSk),pty,ptl,ult:Object.assign({},ult),cnt:cnt.slice(),party:party.map(u),bench:bench.map(u)}}
 function saveGame(){if(!party.length||!wave)return;const s=readSaves();s[nick]=snap();writeSaves(s);cloudSave();refreshSaves()}
 function cloudSave(){if(!lbDb||!myId||cloudT)return;cloudT=setTimeout(async()=>{cloudT=0;try{await lbDb.doc('data/users/'+myId+'/saves').set({s:JSON.stringify(readSaves())})}catch(e){}},3000)}
 async function cloudLoad(){try{const s=await lbDb.doc('data/users/'+myId+'/saves').get();if(!s.exists)return;const c=JSON.parse(s.data().s||'{}'),l=readSaves();let ch=false;for(const k in c){if(!l[k]||l[k].t<c[k].t){l[k]=c[k];ch=true}}if(ch){writeSaves(l);refreshSaves()}}catch(e){}}
@@ -542,7 +546,7 @@ async function cloudLoad(){try{const s=await lbDb.doc('data/users/'+myId+'/saves
 function loadGame(d){reset();wave=d.wave;gold=d.gold;lv=d.lv;xp=d.xp;xn=d.xn;team=Object.assign({atk:1,hp:0,mp:0},d.team);Object.assign(inv,d.inv);own=Object.assign({},d.own);ownSk=Object.assign({},d.osk||{});Object.assign(ownW,d.ow||{});pty=d.pty||0;ptl=d.ptl||0;Object.keys(d.ult||{}).forEach(k=>ult[k]=1);(d.cnt||[]).forEach((n,i)=>cnt[i]=n);
 const mk2=o=>{addMember(o.c);const m=party.pop();Object.assign(m,{name:o.name,mhp:o.mhp,hp:o.hp,atk:o.atk,mmp:o.mmp,mp:o.mp,gs:o.gs||null,sk:o.sk||null,ev:0,wp:o.wp||null,wa:o.wa||1,wh:o.wh||1,wm:o.wm||0,w:o.wp&&ownW[o.wp]?wpS(o.wp,ownW[o.wp]):null});for(let t=1;t<=(o.ev||0);t++){m.ev=t;evoFX(m)}m.s0=.92*Math.pow(1.08,o.ev||0);m.g.scale.setScalar(m.s0);applySkin(m);return m};
 d.party.forEach(o=>party.push(mk2(o)));d.bench.forEach(o=>{const m=mk2(o);bench.push(m);vis(m,false)});layout();applyTheme(Math.floor(wave/5));pend={xp:0,g:0,it:{}};
-genStock();$('sh').textContent='เล่นต่อจากเวฟ '+wave;$('sn').textContent='';shopUI();show('shop')}
+petLoad(d);genStock();$('sh').textContent='เล่นต่อจากเวฟ '+wave;$('sn').textContent='';shopUI();show('shop')}
 function refreshSaves(){const s=readSaves(),ks=Object.keys(s).sort((a,b)=>s[b].t-s[a].t);$('lds').textContent=ks.length?ks.length+' ไฟล์ (ล่าสุด: '+ks[0]+' เวฟ '+s[ks[0]].wave+')':'ยังไม่มีเซฟ'}
  function svUI(){const s=readSaves(),ks=Object.keys(s).sort((a,b)=>s[b].t-s[a].t),el=$('svl');el.textContent='';
 ks.forEach(k=>{const d=s[k],r=document.createElement('div'),sp=document.createElement('span'),n=document.createElement('b'),sm=document.createElement('small'),b1=document.createElement('button'),b2=document.createElement('button');r.className='pm';n.textContent=k;sm.textContent='เวฟ '+d.wave+' • Lv.'+d.lv+' • ทีม '+d.party.length+(d.bench.length?'+'+d.bench.length:'')+' • '+new Date(d.t).toLocaleString();sp.append(n,document.createElement('br'),sm);
@@ -578,35 +582,35 @@ const TIERS=['ทองแดง','เงิน','ทอง','แพลทิน
 try{Object.assign(rk,JSON.parse(localStorage.getItem('turnrank'+NS)||'{}'))}catch(e){}
 const tier=()=>TIERS[Math.max(0,Math.min(4,Math.floor((rk.rp-800)/200)))],num=(v,a,b)=>Math.min(b,Math.max(a,+v||a));
 const rkSan=x=>x&&CL[x.c]?{c:x.c,name:String(x.name||CL[x.c].n).slice(0,12),lv:num(x.lv,1,99),mhp:Math.round(num(x.mhp,1,1e12)),atk:num(x.atk,1,1e11),mmp:Math.round(num(x.mmp,1,60)),ev:num(x.ev,0,2)|0,gs:SKD[x.gs]?x.gs:'',sl:num(x.sl,1,5)|0,sk:SKN.some(k=>k.id===x.sk)?x.sk:'',w:WP[x.w]?x.w:'',wl:num(x.wl,1,5)|0}:null;
-function rkImp(d){const f=d.lv>CAP?Math.pow(1.15,CAP-d.lv):1;return{lv:Math.min(d.lv||1,CAP),own:d.own||{},osk:d.osk||{},ow:d.ow||{},u:d.party.concat(d.bench||[]).map(m=>({c:m.c,name:m.name,mhp:Math.round(m.mhp*f/(m.wh||1)),atk:m.atk*f/(m.wa||1),mmp:m.mmp-(m.wm||0),ev:m.ev||0}))}}
+function rkImp(d){const f=d.lv>CAP?Math.pow(1.15,CAP-d.lv):1;return{lv:Math.min(d.lv||1,CAP),own:d.own||{},osk:d.osk||{},ow:d.ow||{},pets:(d.pf||[]).filter(p=>p&&!p.egg&&PSD[p.sp]).map(p=>({sp:p.sp,a:p.a|0})),u:d.party.concat(d.bench||[]).map(m=>({c:m.c,name:m.name,mhp:Math.round(m.mhp*f/(m.wh||1)),atk:m.atk*f/(m.wa||1),mmp:m.mmp-(m.wm||0),ev:m.ev||0}))}}
 function rkRes(e){const r=rk.roster,u=r&&r.u.find(x=>x.c===e.c);if(!u)return null;const o=Object.assign({lv:r.lv},u),i=(e.it||'').slice(2);if(e.it&&e.it[0]==='k'&&r.own[i]){o.gs=i;o.sl=Math.min(5,r.own[i])}else if(e.it&&e.it[0]==='s'&&r.osk[i])o.sk=i;else if(e.it&&e.it[0]==='w'&&WP[i]&&(r.ow||{})[i]){o.w=i;o.wl=Math.min(5,r.ow[i])}return o}
 const rkTeam=l=>(l||[]).map(rkRes).filter(Boolean);
 const SO=c=>{const r=rk.roster;let h='<option value="">— ไม่ใส่ของ —</option>';SKL.forEach(a=>{if(r.own[a[0]])h+=`<option value="k:${a[0]}">${RN[a[1]]} • ${a[2]} Lv.${Math.min(5,r.own[a[0]])}</option>`});SKN.forEach(k=>{if(r.osk[k.id])h+=`<option value="s:${k.id}">🎨 ${k.n}</option>`});Object.keys(r.ow||{}).forEach(k=>{const w=WP[k];if(w&&(!w.c||w.c.includes(c)))h+=`<option value="w:${k}">${w.i} ${w.n} [${RN[w.r]}] Lv.${r.ow[k]}</option>`});return h};
-function rkSave(){try{localStorage.setItem('turnrank'+NS,JSON.stringify(rk))}catch(e){}if(lbDb&&myId&&rk.def)lbDb.doc('rank/'+myId).set({name:nick,rp:rk.rp,def:rkTeam(rk.def),t:Date.now()}).catch(()=>{})}
-function rkHub(){reset();$('rsv').textContent='';$('rki').textContent=nick+' • '+tier()+' '+rk.rp+' RP • ชนะ '+rk.w+' แพ้ '+rk.l;const r=rk.roster;$('rkt').textContent=!r?'ยังไม่ได้นำเข้าทีม — กดนำเข้าจากไฟล์เซฟโหมดไร้สิ้นสุดก่อน':'ตัวละครที่นำเข้า: '+r.u.map(u=>u.name).join(' • ')+' (เลเวลทีม '+r.lv+')'+(rk.def?'':' • ยังไม่ได้จัดทีมป้องกัน');$('rkd').disabled=$('rka').disabled=!r;$('rkf').disabled=!rk.def;$('rkm').textContent='';show('rk')}
-function rkEdit(k){ed={k,l:JSON.parse(JSON.stringify(rk[k]||(k==='att'&&rk.def)||[]))};$('reh').textContent=k==='def'?'🛡️ ทีมป้องกัน':'⚔️ ทีมโจมตี';$('rem').textContent='';reUI();show('re')}
+function rkSave(){try{localStorage.setItem('turnrank'+NS,JSON.stringify(rk))}catch(e){}if(lbDb&&myId&&rk.def)lbDb.doc('rank/'+myId).set({name:nick,rp:rk.rp,def:rkTeam(rk.def).concat(rk.pd?[{pet:1,sp:rk.pd.sp,a:rk.pd.a,lv:rk.roster?rk.roster.lv:1}]:[]),t:Date.now()}).catch(()=>{})}
+function rkHub(){rkClrPets();reset();$('rsv').textContent='';$('rki').textContent=nick+' • '+tier()+' '+rk.rp+' RP • ชนะ '+rk.w+' แพ้ '+rk.l;const r=rk.roster;$('rkt').textContent=!r?'ยังไม่ได้นำเข้าทีม — กดนำเข้าจากไฟล์เซฟโหมดไร้สิ้นสุดก่อน':'ตัวละครที่นำเข้า: '+r.u.map(u=>u.name).join(' • ')+' (เลเวลทีม '+r.lv+')'+(rk.def?'':' • ยังไม่ได้จัดทีมป้องกัน');$('rkd').disabled=$('rka').disabled=!r;$('rkf').disabled=!rk.def;$('rkm').textContent='';show('rk')}
+function rkEdit(k){ed={k,pt:rk[k==='def'?'pd':'pa']||null,l:JSON.parse(JSON.stringify(rk[k]||(k==='att'&&rk.def)||[]))};$('reh').textContent=k==='def'?'🛡️ ทีมป้องกัน':'⚔️ ทีมโจมตี';$('rem').textContent='';reUI();show('re')}
 function reUI(){const L=ed.l,r=rk.roster,so=SO();let h='';L.forEach((m,i)=>{const u=r.u.find(x=>x.c===m.c);h+=`<div class="pm"><span><b>${i<2?'🛡️ หน้า':'🏹 หลัง'}</b> ${u.name} Lv.${r.lv}<br><select data-i="${i}">${SO(m.c)}</select></span><button data-a="u" data-i="${i}" ${i?'':'disabled'}>▲</button><button data-a="x" data-i="${i}">✕</button></div>`});r.u.filter(u=>!L.some(m=>m.c===u.c)).forEach(u=>h+=`<button data-a="n" data-c="${u.c}">➕ ${u.name}</button>`);$('rel').innerHTML=h;$('rel').querySelectorAll('select').forEach(s=>s.value=L[+s.dataset.i].it||'')}
 $('rel').onclick=e=>{const b=e.target.closest('button');if(!b)return;const i=+b.dataset.i,a=b.dataset.a,L=ed.l;if(a==='u')[L[i-1],L[i]]=[L[i],L[i-1]];else if(a==='x')L.splice(i,1);else if(a==='n')L.push({c:b.dataset.c,it:''});reUI()};
 $('rel').onchange=e=>{if(e.target.tagName==='SELECT')ed.l[+e.target.dataset.i].it=e.target.value};
-$('res').onclick=()=>{if(!ed.l.length){$('rem').textContent='ต้องมีตัวละครอย่างน้อย 1 ตัว';return}rk[ed.k]=ed.l;rkSave();rkHub()};
+$('res').onclick=()=>{if(!ed.l.length){$('rem').textContent='ต้องมีตัวละครอย่างน้อย 1 ตัว';return}rk[ed.k]=ed.l;rk[ed.k==='def'?'pd':'pa']=ed.pt||null;rkSave();rkHub()};
 $('reb').onclick=rkHub;$('m1').onclick=()=>show('menu');$('m2').onclick=rkHub;$('mb').onclick=()=>show('md');$('rkb').onclick=()=>menu();$('rkd').onclick=()=>rkEdit('def');$('rka').onclick=()=>rkEdit('att');$('rlb').onclick=rkHub;$('rof').onclick=rkFind;$('rob').onclick=rkHub;$('rkf').onclick=rkFind;
-$('rki2').onclick=()=>{const s=readSaves(),ks=Object.keys(s).sort((a,b)=>s[b].t-s[a].t),el=$('rsv');el.textContent='';if(!ks.length){$('rkm').textContent='ยังไม่มีไฟล์เซฟ เล่นโหมดไร้สิ้นสุดให้ผ่านเวฟแรกก่อน';return}ks.forEach(k=>{const b=document.createElement('button');b.textContent=k+' • เลเวลทีม '+s[k].lv+' • เวฟ '+s[k].wave;b.onclick=()=>{rk.roster=rkImp(s[k]);rk.def=rk.att=null;rkSave();rkHub();$('rkm').textContent='นำเข้าแล้ว (เลเวลสูงสุด 99) จัดทีมได้เลย'};el.appendChild(b)})};
+$('rki2').onclick=()=>{const s=readSaves(),ks=Object.keys(s).sort((a,b)=>s[b].t-s[a].t),el=$('rsv');el.textContent='';if(!ks.length){$('rkm').textContent='ยังไม่มีไฟล์เซฟ เล่นโหมดไร้สิ้นสุดให้ผ่านเวฟแรกก่อน';return}ks.forEach(k=>{const b=document.createElement('button');b.textContent=k+' • เลเวลทีม '+s[k].lv+' • เวฟ '+s[k].wave;b.onclick=()=>{rk.roster=rkImp(s[k]);rk.def=rk.att=null;rk.pd=rk.pa=null;rkSave();rkHub();$('rkm').textContent='นำเข้าแล้ว (เลเวลสูงสุด 99) จัดทีมได้เลย'};el.appendChild(b)})};
 $('rkl').onclick=async()=>{const el=$('rll');el.textContent='กำลังโหลด...';show('rl');let rows=[];try{if(lbDb)rows=(await lbDb.collection('rank').orderBy('rp','desc').limit(50).get()).docs.map(d=>Object.assign({id:d.id},d.data()))}catch(e){}el.textContent='';if(!rows.length){el.textContent='ยังไม่มีข้อมูลอันดับ (ใช้ได้เมื่อเปิดผ่านลิงก์ที่แชร์)';return}rows.forEach((r,i)=>{const d=document.createElement('div');d.className='lr'+(r.id===myId?' me':'');d.textContent='#'+(i+1)+' '+String(r.name||'?').slice(0,14)+' — '+(+r.rp||0)+' RP';el.appendChild(d)})};
 async function rkFind(){show('rk');$('rkm').textContent='กำลังหาคู่ต่อสู้...';let o=null;try{if(lbDb&&myId){const c=(await lbDb.collection('rank').orderBy('rp','desc').limit(60).get()).docs.filter(d=>d.id!==myId).map(d=>d.data()).filter(d=>Array.isArray(d.def)&&d.def.some(rkSan));c.sort((x,y)=>Math.abs(x.rp-rk.rp)-Math.abs(y.rp-rk.rp));if(c.length)o=c[Math.floor(Math.random()*Math.min(4,c.length))]}}catch(e){}
 if(!o)o={name:'บอทฝึกซ้อม',rp:rk.rp,def:rkTeam(rk.att||rk.def).map(u=>Object.assign({},u,{mhp:u.mhp*(.85+Math.random()*.2),atk:u.atk*(.85+Math.random()*.2),gs:SKL[Math.floor(Math.random()*SKL.length)][0],sl:3,sk:''}))};
-o={name:String(o.name||'ผู้เล่น').slice(0,14),rp:+o.rp||1000,def:o.def.map(rkSan).filter(Boolean).slice(0,4)};rkStart(o)}
+const pe=o.def.find(x=>x&&x.pet&&PSD[x.sp]);o={name:String(o.name||'ผู้เล่น').slice(0,14),rp:+o.rp||1000,def:o.def.map(rkSan).filter(Boolean).slice(0,4),pet:pe?{sp:pe.sp,a:Math.min(9999,Math.max(0,+pe.a||0)),lv:Math.min(99,Math.max(1,+pe.lv||1))}:null};rkStart(o)}
 function rkU(o,foe){const g=mk(CL[o.c].col,'p',.92*Math.pow(1.08,o.ev),o.c);if(foe)g.rotation.y=Math.PI;const W=o.w&&WP[o.w]?wpS(o.w,o.wl||1):null,H=Math.round(o.mhp*(W?W.h:1)),MM=o.mmp+(W?W.m:0);const m=unit({c:o.c,name:o.name+(W?W.i:'')+' Lv.'+o.lv,mhp:H,hp:H,atk:o.atk*(W?W.a:1),mmp:MM,mp:MM,w:W,def:false,gs:o.gs||null,sl:o.sl||1,sk:o.sk||null,ev:0,mir:foe},g,foe);for(let t=1;t<=o.ev;t++){m.ev=t;evoFX(m)}if(m.sk)applySkin(m);dec2(m);return m}
 const layF=()=>{const f=foes.slice(0,2),b=foes.slice(2);f.forEach((m,i)=>m.g.position.set(3,0,(i-(f.length-1)/2)*3));b.forEach((m,i)=>m.g.position.set(6.2,0,(i-(b.length-1)/2)*4.5))};
-function rkStart(o){reset();ropp=o;rkTeam(rk.att||rk.def).forEach(x=>party.push(rkU(x,0)));layout();o.def.forEach(x=>foes.push(rkU(x,1)));layF();applyTheme(Math.floor(Math.random()*8));sel=foes[0];round=1;show('');banner('⚔️ สู้กับ '+o.name);rkBattle()}
+function rkStart(o){reset();ropp=o;rkTeam(rk.att||rk.def).forEach(x=>party.push(rkU(x,0)));layout();o.def.forEach(x=>foes.push(rkU(x,1)));layF();rkClrPets();rkMkPet(0,rk.att?rk.pa:rk.pd);rkMkPet(1,o.pet);applyTheme(Math.floor(Math.random()*8));sel=foes[0];round=1;show('');banner('⚔️ สู้กับ '+o.name);rkBattle()}
 async function aiAct(e){const mine=live(foes),en=live(party),gs=e.gs&&SKD[e.gs],low=mine.some(p=>p.hp<p.mhp*.55),r=Math.random();let k='atk';
 if(gs&&e.mp>=gs.c&&(!'hHv'.includes(gs.t)||low)&&r<.6)k='gs';else if(e.mp>=4&&(e.c!=='healer'||low)&&r<.7)k='sk';else if(e.hp<e.mhp*.3&&r<.4)k='def';
 const t=Math.random()<.5?en.slice().sort((x,y)=>x.hp/x.mhp-y.hp/y.mhp)[0]:en[Math.floor(Math.random()*en.length)],sv=sel;[party,foes]=[foes,party];sel=t;try{await doAct(e,k)}finally{[party,foes]=[foes,party];sel=sv}}
 async function rkBattle(){const id=++run;await sleep(1200);while(id===run){
 for(const m of party){if(m.hp<=0)continue;if(!alive(foes))break;await doAct(m,await choose(m));if(id!==run)return}
-if(!alive(foes))return rkEnd(1);
+if(!alive(foes))return rkEnd(1);await rkPT(0);if(id!==run)return;if(!alive(foes))return rkEnd(1);
 for(const e of foes){if(e.hp<=0)continue;if(!alive(party))break;await aiAct(e);if(id!==run)return}
-if(!alive(party))return rkEnd(0);if(++round>25)return rkEnd(0,1);party.concat(foes).forEach(m=>{m.mp=Math.min(m.mmp,m.mp+3);m.def=false})}}
-function rkEnd(w,to){const o=ropp,g=Math.round((o.rp-rk.rp)/20),d=w?Math.max(10,Math.min(40,20+g)):-Math.max(8,Math.min(25,15-g));rk.rp=Math.max(0,rk.rp+d);w?rk.w++:rk.l++;rkSave();$('pn').classList.remove('on');
+if(!alive(party))return rkEnd(0);await rkPT(1);if(id!==run)return;if(!alive(party))return rkEnd(0);if(++round>25)return rkEnd(0,1);party.concat(foes).forEach(m=>{m.mp=Math.min(m.mmp,m.mp+3);m.def=false})}}
+function rkEnd(w,to){rkClrPets();const o=ropp,g=Math.round((o.rp-rk.rp)/20),d=w?Math.max(10,Math.min(40,20+g)):-Math.max(8,Math.min(25,15-g));rk.rp=Math.max(0,rk.rp+d);w?rk.w++:rk.l++;rkSave();$('pn').classList.remove('on');
 $('rot').textContent=w?'🏆 ชนะ!':to?'⏱ หมดเวลา (นับว่าแพ้)':'💀 พ่ายแพ้';$('rop').textContent=o.name+' ('+o.rp+' RP) • '+(d>0?'+':'')+d+' RP → '+rk.rp+' RP ('+tier()+')';show('ro')}
 const WP={
 gs:{i:'🗡️',n:'ดาบใหญ่',c:['warrior'],d:'ATK+25% HP-10%',a:1.25,h:.9,m:0},
@@ -642,5 +646,94 @@ function dec2(m){const g=m.g,c=CL[m.c].col,M=(r0,r1,n,o)=>{const q=new THREE.Mes
 g.userData.rr=[M(.95,1.12,48),M(.55,.62,6,1)];g.userData.orb=[0,1,2].map(()=>{const s=GL2(c,.55);g.add(s);return s})}
 const _id=idle;idle=(u,t)=>{_id(u,t);const o=u.g.userData.orb;if(o){o.forEach((s,i)=>{const a=t/700+i*2.094;s.position.set(Math.cos(a)*.9,1.2+Math.sin(t/500+i)*.5,Math.sin(a)*.9)});u.g.userData.rr[0].rotation.z=t/1500;u.g.userData.rr[1].rotation.z=-t/900}};
 const _am=addMember;addMember=c=>{_am(c);dec2(party[party.length-1])};
+/* ===== ระบบสัตว์เลี้ยง (ขั้นที่ 1): ฟาร์ม จับสัตว์ป่า สัตว์ในการต่อสู้ ===== */
+const PS=[['wolf','หมาป่าเทา','🐺',0x9aa3b5,'atk',.55,.5,'โจมตีระยะประชิด'],['fox','จิ้งจอกเพลิง','🦊',0xff8a3a,'atk',.6,.42,'โจมตีระยะประชิด'],['bear','หมีป่า','🐻',0x8a5a3a,'def',.5,.4,'ให้โล่ทีมทุก 2 รอบ'],['deer','กวางแสงจันทร์','🦌',0xe8d7a0,'heal',.5,.35,'ฟื้น HP คนเลือดน้อยสุด'],['owl','นกฮูกพราย','🦉',0xb7a6ff,'rng',.7,.25,'โจมตีระยะไกล'],['drake','มังกรน้อย','🐲',0x5aff9a,'rng',1,.12,'โจมตีระยะไกลรุนแรง']];
+const PSD={};PS.forEach(a=>PSD[a[0]]={id:a[0],n:a[1],e:a[2],col:a[3],r:a[4],k:a[5],c:a[6],d:a[7]});
+inv.trap=0;IT.trap=['🪤','ที่จับสัตว์'];
+let farm=[],actPet=null,petM=null,petL=null,wild=null,hunts=3;const FCAP=8,TRAPC=150;
+const yrs=p=>Math.floor(p.a/10),petLv=p=>Math.max(1,Math.min(lv,1+Math.floor(p.a/2))),capP=w=>PSD[w.sp].c;
+function mkPetMesh(id,yr){const s=PSD[id],g=new THREE.Group(),m=new THREE.MeshStandardMaterial({color:s.col,roughness:.8}),Dk=new THREE.MeshBasicMaterial({color:0x151515}),Wh=new THREE.MeshBasicMaterial({color:0xffffff}),
+ad=(ge,mt,x,y,z)=>{const o=new THREE.Mesh(ge,mt);o.position.set(x,y,z);o.castShadow=true;g.add(o);return o},Sp=r=>new THREE.SphereGeometry(r,14,10),Cn=(r,h,n)=>new THREE.ConeGeometry(r,h,n||5);
+ad(Sp(.4),m,0,.55,0).scale.set(1.3,1,1);ad(Sp(.28),m,.52,.82,0);
+[-1,1].forEach(d=>{ad(Sp(.06),Wh,.76,.88,d*.11);ad(Sp(.03),Dk,.8,.88,d*.11);[.3,-.3].forEach(x=>ad(new THREE.CylinderGeometry(.07,.06,.36,6),m,x,.18,d*.2))});
+ad(Sp(.08),Dk,.8,.78,0);
+if(id==='bear'){[-1,1].forEach(d=>ad(Sp(.1),m,.45,1.07,d*.18))}
+else if(id==='deer'){[-1,1].forEach(d=>{ad(Cn(.04,.45,4),m,.45,1.2,d*.14).rotation.x=d*.35;ad(Cn(.03,.25,4),Wh,.45,1.45,d*.25).rotation.x=d*.6})}
+else if(id==='owl'){[-1,1].forEach(d=>{ad(Cn(.09,.22,4),m,.5,1.12,d*.15);ad(Cn(.2,.7,4),m,-.1,.8,d*.5).rotation.x=d*1.2})}
+else if(id==='drake'){[-1,1].forEach(d=>{ad(Cn(.06,.3,5),Wh,.5,1.14,d*.12);ad(Cn(.3,.8,3),m,-.05,.95,d*.45).rotation.x=d*.9})}
+else{[-1,1].forEach(d=>ad(Cn(.09,.25),m,.5,1.12,d*.15))}
+const t=ad(Cn(id==='fox'?.18:.08,.55,6),m,-.68,.7,0);t.rotation.z=1.2;if(id==='fox')ad(Sp(.1),Wh,-.95,.82,0);
+g.scale.setScalar(Math.min(1.15,.7+.07*yr));return g}
+function buildPet(){if(petM){S.remove(petM);petM=null}if(petL){petL.remove();petL=null}if(!actPet||actPet.egg)return;
+petM=mkPetMesh(actPet.sp,yrs(actPet));petM.position.set(-1.6,0,-3.4);petM.userData.s0=petM.scale.x;S.add(petM);
+petL=document.createElement('div');petL.className='lb';petL.innerHTML='<span></span>';lbs.appendChild(petL)}
+function petTick(t){if(!petM)return;petM.visible=party.length>0;petM.scale.y=petM.userData.s0*(1+Math.sin(t/260)*.03);const p=pr({g:petM},1.7);
+if(p.z>1||!petM.visible){petL.style.display='none';return}petL.style.display='block';petL.style.transform=`translate(${p.x}px,${p.y}px) translate(-50%,-100%)`;petL.firstChild.textContent=PSD[actPet.sp].e+' '+PSD[actPet.sp].n+' Lv.'+petLv(actPet)}
+{const _lp=loop;loop=t=>{petTick(t);_lp(t)}}
+async function petAct(){if(!actPet||!petM||!alive(party))return;const p=actPet,s=PSD[p.sp],l=live(foes);if(!l.length)return;
+const avg=party.reduce((a,m)=>a+m.atk,0)/party.length,pw=s.k*avg*(1+.1*yrs(p))*(.5+.5*Math.min(1,petLv(p)/Math.max(1,lv))),u={g:petM,c:'pet',foe:false,col:s.col,atk:pw,name:s.n};
+fl(u,s.e,'#ffd27a');
+if(s.r==='heal'){await hop(u);const w=live(party).sort((a,b)=>a.hp/a.mhp-b.hp/b.mhp)[0];heal(w,pw*2.2)}
+else if(s.r==='def'&&round%2===0){await hop(u);live(party).forEach(m=>{m.def=true;ring(m.g.position.x,m.g.position.z,s.col,3);fl(m,'โล่','#4fd1c5')})}
+else{const t=l[Math.floor(Math.random()*l.length)];if(s.r==='rng'){await shoot(u,t,s.col);dmg(t,pw)}else await melee(u,t,1)}
+await sleep(150)}
+function petWave(){farm.forEach(p=>{p.a++;if(p.egg&&p.a>=3){p.egg=0;p.a=0}});hunts=3}
+function petReset(){farm=[];actPet=null;wild=null;hunts=3;buildPet()}
+function petLoad(d){farm=(d.pf||[]).map(p=>Object.assign({},p));actPet=d.ap>=0?farm[d.ap]||null:null;wild=null;hunts=3;buildPet()}
+function farmUI(){let h='';farm.forEach((p,i)=>{const s=PSD[p.sp],on=p===actPet;h+=p.egg?`<div class='pm'><span>🥚 ไข่${s.n}<br><small>ฟักในอีก ${Math.max(0,3-p.a)} เวฟ</small></span><button data-a='r' data-i='${i}'>ปล่อย</button></div>`:`<div class='pm'><span><b>${s.e} ${s.n}</b>${on?' ✅ อยู่ในทีม':''}<br><small>อายุ ${yrs(p)} ปี (${p.a} เวฟ) • Lv.${petLv(p)} • ${s.d}</small></span><button data-a='u' data-i='${i}'>${on?'ถอด':'ใส่ทีม'}</button><button data-a='r' data-i='${i}'>ปล่อย</button></div>`});
+$('pfl').innerHTML=h||'<p>ฟาร์มยังว่าง — จับสัตว์ป่าได้เมื่อผ่านเวฟ 20</p>';$('pfi').textContent='ความจุ '+farm.length+'/'+FCAP+' • ใส่ทีมได้ครั้งละ 1 ตัว • อายุ +1 ปีทุก 10 เวฟ • เลเวลสัตว์ไม่เกินเลเวลทีม'}
+$('pfl').onclick=e=>{const b=e.target.closest('button');if(!b)return;const i=+b.dataset.i,p=farm[i];if(b.dataset.a==='u'){actPet=actPet===p?null:p;buildPet()}else{if(actPet===p){actPet=null;buildPet()}farm.splice(i,1)}farmUI();saveGame()};
+function wildUI(){$('pwi').textContent='🪤 ที่จับ '+inv.trap+' • ล่าได้อีก '+hunts+' ครั้งในเวฟนี้ • ฟาร์ม '+farm.length+'/'+FCAP;
+$('pwb').textContent='ซื้อที่จับ ('+TRAPC+' ทอง)';$('pwb').disabled=gold<TRAPC;$('pwg').style.display=wild?'none':'';$('pwg').disabled=wave<20||hunts<=0||farm.length>=FCAP;
+$('pwc').innerHTML=wild?`<b style='font-size:22px'>${PSD[wild.sp].e} ${PSD[wild.sp].n}</b><br>อายุ ${yrs(wild)} ปี • โอกาสจับ ${Math.round(capP(wild)*100)}%`:'';
+$('pwu').style.display=$('pwf').style.display=wild?'':'none';$('pwu').disabled=inv.trap<1}
+$('gfm').onclick=()=>{farmUI();show('fm')};$('gpw').onclick=()=>{wild=null;$('pwm').textContent=wave<20?'ปลดล็อกเมื่อผ่านเวฟ 20 (ตอนนี้ผ่านเวฟ '+wave+')':'';wildUI();show('pw')};
+$('fmb').onclick=$('pwx').onclick=()=>{shopUI();show('shop')};
+$('pwb').onclick=()=>{if(gold>=TRAPC){gold-=TRAPC;inv.trap++;wildUI()}};
+$('pwg').onclick=()=>{if(wave<20||hunts<=0||farm.length>=FCAP)return;hunts--;const tot=PS.reduce((a,x)=>a+x[6]+.1,0);let r=Math.random()*tot,id=PS[0][0];for(const x of PS){r-=x[6]+.1;if(r<=0){id=x[0];break}}wild={sp:id,a:10+Math.floor(Math.random()*51)};$('pwm').textContent='เจอสัตว์ป่า!';wildUI()};
+$('pwu').onclick=()=>{if(!wild||inv.trap<1)return;inv.trap--;if(Math.random()<capP(wild)){farm.push({sp:wild.sp,a:wild.a});$('pwm').textContent='จับ '+PSD[wild.sp].n+' ได้แล้ว! ส่งเข้าฟาร์ม';wild=null;saveGame()}else if(Math.random()<.5){$('pwm').textContent='หลุด! สัตว์ป่าวิ่งหนีไปแล้ว';wild=null}else $('pwm').textContent='หลุด! ลองใช้ที่จับอีกครั้ง';wildUI()};
+$('pwf').onclick=()=>{wild=null;$('pwm').textContent='ปล่อยสัตว์ไป';wildUI()};
+/* ===== ขั้นที่ 2: ผสมพันธุ์ ไข่ รังสัตว์ สัตว์ในโหมดแรงค์ ตรวจสิทธิ์รหัสโกง ===== */
+let brd=[],hatchMsg='',nest=null;const BRC=200,ng={p:0,l:3,st:'sleep',nx:0,im:0,held:0,iv:0};
+petWave=()=>{farm.forEach(p=>{p.a++;if(p.cd>0)p.cd--;if(p.egg&&p.a>=3){p.egg=0;p.a=0;hatchMsg='🐣 ไข่ฟักเป็น '+PSD[p.sp].n+'!'}});brd=[];hunts=3};
+farmUI=()=>{let h='';farm.forEach((p,i)=>{const s=PSD[p.sp],on=p===actPet,sl=brd.includes(p);
+if(p.egg){h+=`<div class='pm'><span>🥚 ไข่${s.n}<br><small>ฟักในอีก ${Math.max(0,3-p.a)} เวฟ</small></span><button data-a='r' data-i='${i}'>ปล่อย</button></div>`;return}
+const ok=yrs(p)>=1&&!(p.cd>0);
+h+=`<div class='pm' style='flex-wrap:wrap'><span style='flex:1 1 100%'><b>${s.e} ${s.n}</b>${on?' ✅ อยู่ในทีม':''}${sl?' 💞 เลือกผสม':''}<br><small>อายุ ${yrs(p)} ปี (${p.a} เวฟ) • Lv.${petLv(p)} • ${s.d}${p.cd>0?' • พักผสม '+p.cd+' เวฟ':''}</small></span><button data-a='u' data-i='${i}'>${on?'ถอด':'ใส่ทีม'}</button><button data-a='b' data-i='${i}' ${ok?'':'disabled'}>${sl?'ยกเลิกจับคู่':'💞 จับคู่'}</button><button data-a='r' data-i='${i}'>ปล่อย</button></div>`});
+if(brd.length===2)h+=`<button class='go' data-a='m' ${gold<BRC||farm.length>=FCAP?'disabled':''}>💞 ผสมพันธุ์ ${BRC} ทอง</button>`;
+$('pfl').innerHTML=h||'<p>ฟาร์มยังว่าง — จับสัตว์ป่าได้เมื่อผ่านเวฟ 20</p>';
+$('pfi').textContent='ความจุ '+farm.length+'/'+FCAP+' • ผสมพันธุ์ต้องอายุ 1 ปีขึ้นไป พักผสม 5 เวฟ ไข่ฟักใน 3 เวฟ'+(hatchMsg?' • '+hatchMsg:'')};
+$('pfl').onclick=e=>{const b=e.target.closest('button');if(!b||b.disabled)return;const a=b.dataset.a,p=farm[+b.dataset.i];
+if(a==='u'){actPet=actPet===p?null:p;buildPet()}
+else if(a==='b'){brd=brd.includes(p)?brd.filter(x=>x!==p):brd.length<2?brd.concat(p):[brd[1],p]}
+else if(a==='m'){if(brd.length!==2||gold<BRC||farm.length>=FCAP)return;gold-=BRC;const[x,y]=brd,sp=Math.random()<.1?PS[Math.floor(Math.random()*PS.length)][0]:(Math.random()<.5?x.sp:y.sp);x.cd=y.cd=5;farm.push({sp,a:0,egg:1});brd=[];hatchMsg='ได้ไข่ '+PSD[sp].n+'! ฟักใน 3 เวฟ'}
+else{if(actPet===p){actPet=null;buildPet()}brd=brd.filter(x=>x!==p);farm.splice(+b.dataset.i,1)}
+farmUI();try{saveGame()}catch(x){}};
+{const _wu=wildUI;wildUI=()=>{_wu();$('pwn').disabled=wave<20||hunts<=0||farm.length>=FCAP||!!wild}}
+$('pwn').onclick=()=>{if(wave<20||hunts<=0||farm.length>=FCAP||wild)return;hunts--;const tot=PS.reduce((a,x)=>a+x[6]+.1,0);let r=Math.random()*tot,id=PS[0][0];for(const x of PS){r-=x[6]+.1;if(r<=0){id=x[0];break}}
+nest={sp:id};Object.assign(ng,{p:0,l:3,st:'sleep',held:0,im:0,nx:performance.now()+1200});$('ngi').textContent='รังของ '+PSD[id].e+' '+PSD[id].n+' — กดค้างเพื่อย่องเข้าไปเอาไข่ ปล่อยมือเมื่อมันตื่น!';clearInterval(ng.iv);ng.iv=setInterval(ngTick,50);ngUI();show('ng')};
+function ngUI(){$('ngs').textContent={sleep:'😴 หลับอยู่...',warn:'⚠️ กำลังขยับตัว...',awake:'👀 ตื่นแล้ว! ปล่อยมือ!'}[ng.st];$('ngs').style.color=ng.st==='awake'?'#ff6a6a':ng.st==='warn'?'#ffd27a':'#7bd88f';$('ngb').style.width=Math.min(100,ng.p)+'%';const l=Math.max(0,ng.l);$('ngl').textContent='❤️'.repeat(l)+'🖤'.repeat(3-l)}
+function ngTick(){if(!nest)return;const n=performance.now(),dif=(.5-PSD[nest.sp].c)/.4;
+if(n>=ng.nx){if(ng.st==='sleep'){ng.st='warn';ng.nx=n+450}else if(ng.st==='warn'){ng.st='awake';ng.nx=n+700+dif*500+Math.random()*500}else{ng.st='sleep';ng.nx=n+(1300+Math.random()*1200)*(1-.35*dif)}}
+if(ng.held){ng.p+=1.1;if(ng.st==='awake'&&n>ng.im){ng.l--;ng.im=n+900;ng.p=Math.max(0,ng.p-20);try{navigator.vibrate&&navigator.vibrate(80)}catch(e){}}}
+ngUI();if(ng.l<=0)ngEnd(0);else if(ng.p>=100)ngEnd(1)}
+function ngEnd(w){clearInterval(ng.iv);ng.held=0;if(w){farm.push({sp:nest.sp,a:0,egg:1});$('pwm').textContent='🥚 ขโมยไข่'+PSD[nest.sp].n+'สำเร็จ! ส่งเข้าฟาร์ม ฟักใน 3 เวฟ';try{saveGame()}catch(e){}}else{const l=Math.min(gold,100);gold-=l;$('pwm').textContent='💢 ถูกเจ้าของรังจับได้! เสียทอง '+l}nest=null;wildUI();show('pw')}
+{const h=$('ngh');h.onpointerdown=e=>{e.preventDefault();ng.held=1};['pointerup','pointerleave','pointercancel'].forEach(t=>h['on'+t]=()=>{ng.held=0});h.oncontextmenu=e=>e.preventDefault()}
+$('ngx').onclick=()=>{clearInterval(ng.iv);ng.held=0;nest=null;$('pwm').textContent='ถอยออกจากรังโดยไม่มีใครรู้';wildUI();show('pw')};
+/* สัตว์ในโหมดแรงค์ */
+let rkPets=[null,null];
+function rkClrPets(){rkPets.forEach(p=>{if(p&&p.m)S.remove(p.m)});rkPets=[null,null]}
+function rkMkPet(side,pt){if(!pt||!PSD[pt.sp])return;const a=Math.max(0,+pt.a||0),m=mkPetMesh(pt.sp,Math.floor(a/10));m.position.set(side?4.8:-1.6,0,-4.2);if(side)m.rotation.y=Math.PI;S.add(m);rkPets[side]={sp:pt.sp,a,lv:pt.lv||(rk.roster&&rk.roster.lv)||1,m,side}}
+async function petAct2(p){const s=PSD[p.sp],l=live(foes);if(!l.length||!alive(party))return;const plv=Math.min(1+Math.floor(p.a/2),p.lv),avg=party.reduce((a,m)=>a+m.atk,0)/party.length,pw=s.k*avg*(1+.1*Math.floor(p.a/10))*(.5+.5*Math.min(1,plv/Math.max(1,p.lv))),u={g:p.m,c:'pet',foe:!!p.side,col:s.col,atk:pw,name:s.n};fl(u,s.e,'#ffd27a');
+if(s.r==='heal'){await hop(u);const w=live(party).sort((a,b)=>a.hp/a.mhp-b.hp/b.mhp)[0];heal(w,pw*2.2)}
+else if(s.r==='def'&&round%2===0){await hop(u);live(party).forEach(m=>{m.def=true;ring(m.g.position.x,m.g.position.z,s.col,3);fl(m,'โล่','#4fd1c5')})}
+else{const t=l[Math.floor(Math.random()*l.length)];if(s.r==='rng'){await shoot(u,t,s.col);dmg(t,pw)}else await melee(u,t,1)}
+await sleep(150)}
+async function rkPT(side){const p=rkPets[side];if(!p)return;if(side){[party,foes]=[foes,party];try{await petAct2(p)}finally{[party,foes]=[foes,party]}}else await petAct2(p)}
+function rePetUI(){const r=rk.roster,ps=(r&&r.pets)||[];$('rep').innerHTML='<option value="">— ไม่ใช้สัตว์เลี้ยง —</option>'+ps.map((p,i)=>`<option value="${i}">${PSD[p.sp].e} ${PSD[p.sp].n} อายุ ${Math.floor(p.a/10)} ปี (Lv.${Math.min(1+Math.floor(p.a/2),r.lv)})</option>`).join('');const k=ed.pt?ps.findIndex(p=>p.sp===ed.pt.sp&&p.a===ed.pt.a):-1;$('rep').value=k>=0?String(k):''}
+{const _ru=reUI;reUI=()=>{_ru();rePetUI()}}
+$('rep').onchange=()=>{const v=$('rep').value,ps=(rk.roster&&rk.roster.pets)||[];ed.pt=v===''?null:ps[+v]||null};
+/* ตรวจสิทธิ์รหัสโกงกับเซิร์ฟเวอร์ */
+{const _tc=tryCode;tryCode=async(i,p,g)=>{const c=i.value.trim().toUpperCase();if(c==='PRIEST999'||c==='GIVEALL'){if(!ACCT){p.textContent='ต้องสมัครบัญชีและล็อกอินก่อนจึงจะใช้รหัสนี้ได้';return}p.textContent='กำลังตรวจสิทธิ์กับเซิร์ฟเวอร์...';let ok=false;try{const r=await fetch('/api/auth',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({a:'cheat'})});ok=(await r.json()).ok===true}catch(e){}if(!ok){p.textContent='บัญชีนี้ยังไม่ได้รับอนุมัติให้ใช้รหัสนี้';return}}_tc(i,p,g)}}
 menu();requestAnimationFrame(loop);
 </script></body></html>
